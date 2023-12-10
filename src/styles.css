@@ -35,6 +35,18 @@ section.padding {
 
 section img.background {
   height: 100%;
+  left: 60%;
+  object-fit: cover;
+  pointer-events: none;
+  position: absolute;
+  top: 50px;
+  transform: translate(-50%, 0);
+  width: 800px;
+  z-index: -1;
+}
+
+.aboutBackground {
+  height: 100%;
   left: 50%;
   object-fit: cover;
   pointer-events: none;
@@ -43,14 +55,16 @@ section img.background {
   transform: translate(-50%, 0);
   width: 100vmax;
   z-index: -1;
+  margin-top: 40px;
 }
 
 h1 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 400;
-  line-height: 0.8;
+  line-height: 0.9;
   margin: 0;
+  letter-spacing: .04em;
 }
 
 h2 {
